@@ -1,0 +1,7 @@
+pandas
+matplotlib
+plyer
+flask
+requests
+google-generativeai
+python-dotenv
