@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TrackIt — Habit Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </head>
+  <body data-user="{{ user_name }}">
+    <nav class="top-nav">
+      <div class="nav-left">
+        <div class="logo">TrackIt<span class="logo-leaf">🌿</span></div>
+        <div class="nav-quote">Build better habits — one day at a time</div>
+      </div>
+      <div class="nav-right">
+        <button id="darkToggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+        <div class="profile">
+          <div class="avatar">TI</div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="panel dashboard-grid">
+        <!-- decorative floating blobs -->
+        <div class="bg-blobs" aria-hidden="true">
+          <div class="blob b1"></div>
+          <div class="blob b2"></div>
+          <div class="blob b3"></div>
+        </div>
+        <!-- trophy/crown background accents -->
+        <div class="bg-trophies" aria-hidden="true">
+          <div class="trophy"></div>
+          <div class="crown"></div>
+        </div>
+
+        <!-- (hero moved to right column for premium layout) -->
+        <div class="panel-left">
+          <div class="panel-header greeting">
+            <div>
+              {% if user_name %}
+              <div class="greet-row">
+                <h1 class="greet">Good morning, <span class="name" id="displayName">{{ user_name }}</span></h1>
+                <button id="editNameBtn" class="btn icon" type="button" aria-label="Edit name">Edit</button>
+              </div>
+              <div class="sub muted">Here's your focus for today — keep the streak going</div>
+
+              <!-- Hidden inline form to edit the stored user name -->
+              <form method="post" action="/set_name" class="inline-name-form edit-name-form" id="editNameForm" style="display:none;">
+                <label class="visually-hidden" for="edit_user_name">Edit your name</label>
+                <input id="edit_user_name" name="user_name" value="{{ user_name }}" required>
+                <button class="btn" type="submit">Save</button>
+                <button type="button" class="btn" id="cancelEditName">Cancel</button>
+              </form>
+              {% else %}
+              <!-- Inline small form to set user's name (stored in session) -->
+              <form method="post" action="/set_name" class="inline-name-form">
+                <label class="visually-hidden" for="user_name">Enter your name</label>
+                <input id="user_name" name="user_name" placeholder="What's your name?" required>
+                <button class="btn" type="submit">Save</button>
+              </form>
+              {% endif %}
+            </div>
+            {% if user_name %}
+<div class="user-stats">
+    <p><strong>{{ user_name }}</strong>, you have <strong>{{ points }}</strong> points! 🏆</p>
+    {% if rewards %}
+        <div class="rewards-list">
+            <p class="rewards-title">Unlocked Rewards:</p>
+            <ul>
+            {% for reward in rewards %}
+                {% if reward is mapping %}
+                    <li>{{ reward.name }} <span class="reward-date" title="Earned at {{ reward.earned_at }}">📅</span></li>
+                {% else %}
+                    <li>{{ reward }}</li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+</div>
+{% if reward_msg %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toast = document.createElement('div');
+        toast.className = 'reward-toast';
+        toast.innerHTML = '{{ reward_msg }}';
+        document.body.appendChild(toast);
+        setTimeout(() => {
+            toast.classList.add('show');
+        }, 100);
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => toast.remove(), 300);
+        }, 3000);
+    });
+</script>
+{% endif %}
+
+{% endif %}
+
+            <div class="actions">
+              <form id="addForm" method="post" action="/add" class="inline-form">
+                <input name="name" placeholder="Add a habit" required>
+                <button class="btn primary">➕</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="day-chips" id="dayChips">
+            <button class="chip" data-day="0" title="Monday">Mon</button>
+            <button class="chip" data-day="1" title="Tuesday">Tue</button>
+            <button class="chip active" data-day="2" title="Wednesday">Wed</button>
+            <button class="chip" data-day="3" title="Thursday">Thu</button>
+            <button class="chip" data-day="4" title="Friday">Fri</button>
+            <button class="chip" data-day="5" title="Saturday">Sat</button>
+            <button class="chip" data-day="6" title="Sunday">Sun</button>
+          </div>
+
+          <div class="habits">
+            {% for h in habits %}
+            <article class="habit-card {{ ['tile-teal','tile-yellow','tile-blue','tile-purple','tile-coral'][loop.index0 % 5] }}" data-name="{{ h.habit_name }}" data-rate="{{ h.rate }}">
+              <!-- animated conic-gradient progress circle (CSS-driven) -->
+              <div class="progress-wrap">
+                <div class="progress" style="--p: {{ h.rate }};"></div>
+                <div class="progress-label">{{ h.rate }}%</div>
+              </div>
+
+              <div class="card-main">
+                <div class="card-info">
+                      <div class="card-title">
+                        <img class="habit-image" src="/static/images/{{ h.icon }}" alt="{{ h.habit_name }}">
+                        {{ h.habit_name }}
+                      </div>
+                      <div class="meta">{{ h.days_completed }} / {{ h.total_days }} days</div>
+                      {% if h.streak > 0 %}
+                      <div class="streak-badge">🔥 {{ h.streak }} day streak</div>
+                      {% endif %}
+                </div>
+                <div class="card-actions">
+                  <form class="doneForm" method="post" action="/done">
+                    <input type="hidden" name="name" value="{{ h.habit_name }}">
+                    <button class="btn done" type="submit" aria-label="Mark {{ h.habit_name }} as done">Done</button>
+                  </form>
+                  <form class="skipForm" method="post" action="/skip">
+                    <input type="hidden" name="name" value="{{ h.habit_name }}">
+                    <button class="btn skip" type="submit" aria-label="Skip {{ h.habit_name }}">Skip</button>
+                  </form>
+                  <button class="btn icon-btn edit-btn" data-habit="{{ h.habit_name }}" aria-label="Edit {{ h.habit_name }}">✏️</button>
+                  <form class="deleteForm" method="post" action="/delete" style="display: inline;">
+                    <input type="hidden" name="name" value="{{ h.habit_name }}">
+                    <button class="btn icon-btn delete-btn" type="submit" aria-label="Delete {{ h.habit_name }}">🗑️</button>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Edit Modal -->
+              <div class="edit-modal" id="edit-{{ h.habit_name | replace(' ', '-') }}" style="display: none;">
+                <div class="modal-content">
+                  <h3>Edit Habit</h3>
+                  <form method="post" action="/edit">
+                    <input type="hidden" name="old_name" value="{{ h.habit_name }}">
+                    <input type="text" name="new_name" value="{{ h.habit_name }}" placeholder="New habit name" required>
+                    <div class="modal-actions">
+                      <button class="btn primary" type="submit">Save</button>
+                      <button class="btn cancel-modal" type="button">Cancel</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+
+        <aside class="panel-right">
+          <!-- Hero / Focus panel (top right) -->
+          <div class="hero panel">
+            <div class="hero-inner">
+              <div class="hero-text">
+                {% if user_name %}
+                <div class="hero-greet">Good morning, <span class="hero-name">{{ user_name }}</span></div>
+                {% else %}
+                <div class="hero-greet">Welcome</div>
+                {% endif %}
+                <div class="hero-quote muted">"Small consistent actions beat big occasional efforts."</div>
+              </div>
+              <div class="hero-progress">
+                <div class="glow-ring">
+                  <div class="ring" data-value="{{ overall_rate }}"></div>
+                  <div class="ring-label">{{ overall_rate }}%</div>
+                </div>
+              </div>
+              <div class="hero-light" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="quote-card panel">
+            <div class="quote">“Commit to the process; the progress will follow.”</div>
+            <div class="quote-author">— Your daily motivator</div>
+          </div>
+
+          <div class="panel small-panel">
+            <h3>Weekly Progress</h3>
+            <canvas id="weeklyChart" height="140"></canvas>
+          </div>
+          <div class="panel small-panel" id="calendarPanel">
+            <h3>Calendar</h3>
+            <div class="calendar-controls">
+              <button id="calPrev" class="btn">◀</button>
+              <div id="calLabel" style="display:inline-block;margin:0 10px;font-weight:700"></div>
+              <button id="calNext" class="btn">▶</button>
+            </div>
+            <div id="calendarGrid" class="calendar-grid" aria-hidden="false"></div>
+          </div>
+          <div class="panel small-panel">
+            <h3>Profile</h3>
+            <div class="profile-mini">
+              <div class="avatar large">TI</div>
+              <div class="profile-info">
+                <div class="name">TrackIt User</div>
+                <div class="sub muted">Level 3 • 45 pts</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel small-panel" id="leaderboardPanel">
+            <h3>Leaderboard</h3>
+            <ol class="leaderboard-list" id="leaderboardList">
+              <li class="muted">Loading...</li>
+            </ol>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">Made with care • TrackIt</footer>
+
+    <div class="fab" id="fab">+</div>
+    <script src="/static/dashboard.js"></script>
+    <div id="rewardModal" class="reward-modal">
+  <div class="reward-content">
+    <h2>🎉 Reward Unlocked!</h2>
+    <p id="rewardText"></p>
+    <button onclick="closeReward()">Close</button>
+  </div>
+</div>
+  </body>
+</html>

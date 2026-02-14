@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TrackIt — Mockup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>body{padding:18px;background:transparent}</style>
+  </head>
+  <body>
+    <!-- This is a static mockup using the same styles as the app -->
+    <nav class="top-nav">
+      <div class="nav-left">
+        <div class="logo">TrackIt<span class="logo-leaf">🌿</span></div>
+        <div class="nav-quote">Build better habits — one day at a time</div>
+      </div>
+      <div class="nav-right">
+        <button id="darkToggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+        <div class="profile"><div class="avatar">TI</div></div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="panel dashboard-grid">
+        <div class="panel-left">
+          <div class="panel-header">
+            <h2>Your Habits</h2>
+            <div class="actions">
+              <form id="addForm" class="inline-form">
+                <input name="name" placeholder="New habit name" required>
+                <button class="btn primary">➕</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="habits">
+            <article class="habit-card">
+              <div class="card-left">
+                <div class="icon">🧘</div>
+                <div>
+                  <div class="habit-title">Morning Meditation</div>
+                  <div class="meta">18 / 21 days — <span class="streak">🔥 6</span></div>
+                </div>
+              </div>
+              <div class="card-right">
+                <div class="progress-ring" style="background: conic-gradient(var(--accent) 85%, var(--ring-bg) 85%);">
+                  <div class="ring-inner">85%</div>
+                </div>
+                <div class="card-actions">
+                  <button class="btn done">Done</button>
+                </div>
+              </div>
+              <div class="badges"><span class="badge">Streak: 6</span><span class="badge premium">On Fire</span></div>
+            </article>
+
+            <article class="habit-card">
+              <div class="card-left">
+                <div class="icon">🏃</div>
+                <div>
+                  <div class="habit-title">Evening Run</div>
+                  <div class="meta">12 / 21 days — <span class="streak">🔥 3</span></div>
+                </div>
+              </div>
+              <div class="card-right">
+                <div class="progress-ring" style="background: conic-gradient(var(--accent) 57%, var(--ring-bg) 57%);">
+                  <div class="ring-inner">57%</div>
+                </div>
+                <div class="card-actions">
+                  <button class="btn done">Done</button>
+                </div>
+              </div>
+              <div class="badges"><span class="badge">Streak: 3</span></div>
+            </article>
+
+            <article class="habit-card">
+              <div class="card-left">
+                <div class="icon">📚</div>
+                <div>
+                  <div class="habit-title">Read 20 mins</div>
+                  <div class="meta">20 / 21 days — <span class="streak">🔥 10</span></div>
+                </div>
+              </div>
+              <div class="card-right">
+                <div class="progress-ring" style="background: conic-gradient(var(--accent) 95%, var(--ring-bg) 95%);">
+                  <div class="ring-inner">95%</div>
+                </div>
+                <div class="card-actions">
+                  <button class="btn done">Done</button>
+                </div>
+              </div>
+              <div class="badges"><span class="badge">Streak: 10</span><span class="badge premium">On Fire</span></div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="panel-right">
+          <div class="quote-card panel">
+            <div class="quote">“Small daily improvements are the key to staggering long-term results.”</div>
+            <div class="quote-author">— Consistency Coach</div>
+          </div>
+
+          <div class="panel small-panel">
+            <h3>Weekly Progress</h3>
+            <canvas id="weeklyChart" height="140"></canvas>
+          </div>
+
+          <div class="panel small-panel">
+            <h3>Profile</h3>
+            <div class="profile-mini">
+              <div class="avatar large">TI</div>
+              <div class="profile-info"><div class="name">TrackIt User</div><div class="sub muted">Level 3 • 45 pts</div></div>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">Made with care • TrackIt</footer>
+
+    <script>
+      // Mock week data
+      const mock = {dates:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'], values:[60,72,68,80,75,85,78]};
+      new Chart(document.getElementById('weeklyChart').getContext('2d'), {
+        type:'line',
+        data:{labels:mock.dates,datasets:[{label:'Success Rate (%)',data:mock.values,borderColor:'#4a6fff',backgroundColor:'rgba(74,111,255,0.08)',tension:0.35,fill:true}]},
+        options:{plugins:{legend:{display:false}},scales:{y:{min:0,max:100}}}
+      });
+
+      // Simple interactions for mockup
+      document.querySelectorAll('.btn.done').forEach(btn=>{
+        btn.addEventListener('click', ()=>{
+          btn.classList.add('animate');
+          btn.textContent = '✓';
+          setTimeout(()=>btn.classList.remove('animate'),600);
+        });
+      });
+
+      document.getElementById('darkToggle').addEventListener('click', ()=>document.body.classList.toggle('dark'));
+    </script>
+  </body>
+</html>

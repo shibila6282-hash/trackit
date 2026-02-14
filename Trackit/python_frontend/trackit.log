@@ -1,0 +1,742 @@
+2026-02-14 03:50:13,207 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:50:14,757 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 03:50:14,761 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 03:50:14,765 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:50:16,089 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:50:17,381 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:50:17,388 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 03:50:37,108 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "GET /?id=6a845093-4f76-42c9-8379-0f11b48979aa&vscodeBrowserReqId=1771021236760 HTTP/1.1" 200 -
+2026-02-14 03:50:37,337 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 03:50:37,449 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 03:50:37,454 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:50:37,456 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:50:37,666 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 03:50:37,679 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 03:50:37,798 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 03:50:37,851 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:50:37,874 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:50:37] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 03:51:02,186 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\data_manager.py', reloading
+2026-02-14 03:51:02,638 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:51:04,819 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:51:07,160 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:51:07,167 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 03:51:12,273 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\data_manager.py', reloading
+2026-02-14 03:51:12,652 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:51:14,497 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:51:16,159 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:51:16,165 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 03:51:37,600 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\data_manager.py', reloading
+2026-02-14 03:51:38,122 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:51:39,676 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:51:41,338 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:51:41,346 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 03:51:54,586 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 03:51:54,937 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:51:57,297 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:51:58,685 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:51:58,691 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 03:52:01,758 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 03:52:02,144 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:52:03,815 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:52:04,809 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:52:04,814 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 03:52:19,101 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 03:52:19,491 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:52:21,017 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:52:22,118 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:52:22,122 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 03:52:29,737 - __main__ - WARNING - Invalid session detected for user: Shibi
+2026-02-14 03:52:29,756 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:29] "GET / HTTP/1.1" 200 -
+2026-02-14 03:52:29,800 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 03:52:29,896 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:29] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:52:30,202 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:30] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:52:30,227 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:30] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:52:30,254 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:30] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 03:52:30,579 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:30] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 03:52:30,585 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:30] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 03:52:30,590 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:30] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 03:52:30,606 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:52:30] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 03:53:55,228 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:53:57,273 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 03:53:57,275 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 03:53:57,279 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:53:59,576 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:54:01,754 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:54:01,769 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 03:54:22,390 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:22] "GET /?id=6a845093-4f76-42c9-8379-0f11b48979aa&vscodeBrowserReqId=1771021461645 HTTP/1.1" 200 -
+2026-02-14 03:54:22,466 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:22] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 03:54:22,765 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:22] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:54:22,768 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:22] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 03:54:22,799 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:22] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 03:54:22,800 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:22] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:54:23,120 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:23] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 03:54:23,148 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:23] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 03:54:23,154 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:23] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 03:54:23,155 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 03:54:23] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 03:55:04,220 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\tests\\test_data_manager.py', reloading
+2026-02-14 03:55:04,707 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 03:55:07,970 - __main__ - INFO - TrackIt application starting...
+2026-02-14 03:55:09,944 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 03:55:09,952 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 04:14:46,672 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\tests\\test_data_manager.py', reloading
+2026-02-14 04:14:47,177 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 04:14:49,299 - __main__ - INFO - TrackIt application starting...
+2026-02-14 04:14:51,000 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 04:14:51,008 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 04:15:23,645 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\tests\\test_data_manager.py', reloading
+2026-02-14 04:15:24,256 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 04:15:27,396 - __main__ - INFO - TrackIt application starting...
+2026-02-14 04:15:29,563 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 04:15:29,574 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 04:21:58,352 - __main__ - INFO - TrackIt application starting...
+2026-02-14 04:22:00,411 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.16.183:5000
+2026-02-14 04:22:00,412 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 04:22:00,417 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 04:22:02,747 - __main__ - INFO - TrackIt application starting...
+2026-02-14 04:22:04,733 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 04:22:04,745 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:18:04,557 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:18:05,182 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:18:05,183 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:18:05,187 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:18:05,874 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:18:06,424 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:18:06,427 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:18:24,046 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "GET /?id=6a845093-4f76-42c9-8379-0f11b48979aa&vscodeBrowserReqId=1771030103591 HTTP/1.1" 200 -
+2026-02-14 06:18:24,168 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:18:24,380 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:18:24,385 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:18:24,385 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:18:24,498 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:18:24,503 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:18:24,817 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:18:24,824 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:18:24,833 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:24] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:18:42,503 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:42] "GET / HTTP/1.1" 200 -
+2026-02-14 06:18:42,519 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:42] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 06:18:42,711 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:42] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:18:42,823 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:42] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:18:42,836 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:42] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:18:42,837 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:42] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:18:43,150 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:43] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:18:43,162 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:43] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:18:43,165 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:43] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:18:43,177 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:43] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:18:43,180 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:18:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-14 06:19:02,433 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:02] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 06:19:02,776 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:02] "GET / HTTP/1.1" 200 -
+2026-02-14 06:19:03,445 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:03] "GET / HTTP/1.1" 200 -
+2026-02-14 06:19:03,699 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:19:03,763 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:03] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:03,764 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:03] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:04,024 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:04] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:19:04,025 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:04] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:04,337 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:04] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:19:04,342 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:04] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:19:04,349 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:04] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:19:04,356 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:04] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:19:06,768 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:06] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 06:19:07,174 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:07] "GET / HTTP/1.1" 200 -
+2026-02-14 06:19:07,859 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:07] "GET / HTTP/1.1" 200 -
+2026-02-14 06:19:08,117 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:19:08,185 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:08,189 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:08,445 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:08,445 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:19:08,755 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:19:08,766 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:19:08,772 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:19:08,782 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:08] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:19:20,067 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:20] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 06:19:20,448 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:20] "GET / HTTP/1.1" 200 -
+2026-02-14 06:19:21,121 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:21] "GET / HTTP/1.1" 200 -
+2026-02-14 06:19:21,376 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:19:21,437 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:21] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:21,438 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:21] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:21,706 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:21] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:19:21,707 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:21] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:19:22,023 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:22] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:19:22,028 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:22] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:19:22,035 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:22] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:19:22,040 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:19:22] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:21:45,525 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:45] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 06:21:45,813 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:45] "GET / HTTP/1.1" 200 -
+2026-02-14 06:21:46,482 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:46] "GET / HTTP/1.1" 200 -
+2026-02-14 06:21:46,749 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:21:46,799 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:46] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:21:46,803 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:46] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:21:47,058 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:47] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:21:47,070 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:47] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:21:47,122 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:47] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:21:47,126 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:47] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:21:47,127 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:47] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:21:47,136 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:47] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:21:48,886 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:48] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 06:21:49,184 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:49] "GET / HTTP/1.1" 200 -
+2026-02-14 06:21:49,881 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:49] "GET / HTTP/1.1" 200 -
+2026-02-14 06:21:50,112 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:21:50,203 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:21:50,205 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:21:50,441 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:21:50,442 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:21:50,750 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:21:50,765 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:21:50,775 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:21:50,780 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:21:50] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:26:37,971 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:26:38,549 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:26:38,549 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:26:38,551 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:26:39,412 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:26:40,081 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:26:40,085 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:26:57,041 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "GET /?id=6a845093-4f76-42c9-8379-0f11b48979aa&vscodeBrowserReqId=1771030616611 HTTP/1.1" 200 -
+2026-02-14 06:26:57,200 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 06:26:57,373 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:26:57,373 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:26:57,374 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:26:57,556 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "GET /static/dashboard.js HTTP/1.1" 200 -
+2026-02-14 06:26:57,562 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:26:57,872 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:26:57,874 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:26:57,879 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:26:57] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:27:16,614 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:16] "GET / HTTP/1.1" 200 -
+2026-02-14 06:27:16,625 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:16] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 06:27:16,804 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:16] "GET /static/dashboard.js HTTP/1.1" 200 -
+2026-02-14 06:27:16,935 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:16] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:27:16,958 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:16] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:27:16,965 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:16] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:27:17,129 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:17] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:27:17,130 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:17] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:27:17,140 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:17] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:27:17,255 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:27:17] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:28:55,288 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\data_manager.py', reloading
+2026-02-14 06:28:55,291 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\data_manager.py', reloading
+2026-02-14 06:28:55,397 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\data_manager.py', reloading
+2026-02-14 06:28:55,731 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:28:55,740 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:28:55,787 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:28:56,870 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:28:56,873 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:28:56,896 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:28:57,612 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:28:57,612 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:28:57,615 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:28:57,615 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:28:57,630 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:28:57,634 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:28:59,658 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 06:28:59,660 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 06:28:59,669 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 06:29:00,047 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:00,050 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:00,057 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:01,106 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:01,106 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:01,170 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:01,959 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:01,963 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:29:01,992 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:01,996 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:29:02,015 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:02,018 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:29:15,138 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 06:29:15,168 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 06:29:15,187 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 06:29:15,515 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:15,539 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:15,553 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:16,340 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:16,344 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:16,371 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:17,284 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:17,288 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:29:17,314 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:17,319 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:29:17,332 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:17,337 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:29:39,618 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\data_manager.py', reloading
+2026-02-14 06:29:39,620 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\app.py', reloading
+2026-02-14 06:29:39,885 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:39,892 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:40,589 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Trackit\\python_frontend\\data_manager.py', reloading
+2026-02-14 06:29:41,032 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:29:41,134 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:41,187 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:42,118 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:29:42,119 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:42,124 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:29:42,183 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:42,186 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:29:42,778 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:29:42,781 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:31:37,687 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:31:38,309 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:31:38,310 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:31:38,312 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:31:39,259 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:31:39,846 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:31:39,849 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:32:09,574 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:09] "[35m[1mGET /?id=6a845093-4f76-42c9-8379-0f11b48979aa&vscodeBrowserReqId=1771030929462 HTTP/1.1[0m" 500 -
+2026-02-14 06:32:09,602 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-14 06:32:09,610 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-14 06:32:09,662 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:09] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1" 200 -
+2026-02-14 06:32:24,199 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:32:24,216 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:24] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-14 06:32:24,235 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:24] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-14 06:32:24,312 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:24] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1" 200 -
+2026-02-14 06:32:24,328 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-14 06:32:52,109 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:32:52,123 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:52] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-14 06:32:52,253 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:52] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-14 06:32:52,592 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:52] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1" 200 -
+2026-02-14 06:32:52,840 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:32:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-14 06:33:08,319 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:33:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:33:08,332 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:33:08,333 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:33:08,371 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:34:19,957 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:34:19] "[35m[1mGET /?id=6a845093-4f76-42c9-8379-0f11b48979aa&vscodeBrowserReqId=1771031059925 HTTP/1.1[0m" 500 -
+2026-02-14 06:34:19,967 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:34:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:34:19,968 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:34:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:34:19,980 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:34:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:35:54,976 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:35:54,985 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:35:54,987 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:35:54,999 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:35:55,012 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 06:35:59,676 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:35:59,686 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:35:59,687 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:35:59,697 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:35:59,707 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:35:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 06:36:00,702 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:36:00,713 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:36:00,714 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:36:00,723 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:36:00,735 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 06:36:01,417 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:36:01,429 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:36:01,430 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:36:01,440 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:36:01,450 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 06:36:01,651 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:36:01,659 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:36:01,661 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:36:01,672 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:36:01,682 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:36:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 06:36:52,731 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:36:53,424 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:36:53,424 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:36:53,426 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:36:54,222 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:36:54,826 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:36:54,830 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:37:24,174 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:37:24,757 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:37:24,758 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:37:24,759 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:37:25,477 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:37:26,002 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:37:26,005 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:37:44,593 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:37:44] "[35m[1mGET /?id=6a845093-4f76-42c9-8379-0f11b48979aa&vscodeBrowserReqId=1771031264541 HTTP/1.1[0m" 500 -
+2026-02-14 06:37:44,604 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:37:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:37:44,606 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:37:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:37:44,614 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:37:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:39:03,600 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:39:04,197 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:39:04,197 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:39:04,199 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:39:04,917 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:39:05,433 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:39:05,437 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:39:23,621 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:39:23] "[35m[1mGET /?id=238a1b88-1d0b-4d4c-b5ef-4d80bcf34551&vscodeBrowserReqId=1771031363566 HTTP/1.1[0m" 500 -
+2026-02-14 06:39:23,636 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:39:23] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:39:23,637 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:39:23] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:39:23,648 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:39:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:39:29,656 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:39:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 06:39:29,683 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:39:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 06:39:29,692 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:39:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 06:39:29,756 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:39:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=dltUH64fjpM3FtnTZEDG HTTP/1.1[0m" 304 -
+2026-02-14 06:42:00,855 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:42:01,399 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:42:01,400 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:42:01,401 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:42:02,062 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:42:02,589 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:42:02,592 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:42:39,749 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:42:40,292 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:42:40,292 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:42:40,294 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:42:40,967 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:42:41,518 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:42:41,521 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:42:59,461 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /?id=238a1b88-1d0b-4d4c-b5ef-4d80bcf34551&vscodeBrowserReqId=1771031579349 HTTP/1.1" 200 -
+2026-02-14 06:42:59,488 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 06:42:59,488 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /static/images/water.svg HTTP/1.1" 200 -
+2026-02-14 06:42:59,489 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /static/images/default.svg HTTP/1.1" 200 -
+2026-02-14 06:42:59,504 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /static/images/reading.svg HTTP/1.1" 200 -
+2026-02-14 06:42:59,546 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /static/dashboard.js HTTP/1.1" 200 -
+2026-02-14 06:42:59,609 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:42:59,640 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:42:59,644 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:42:59,659 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:42:59] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:43:08,275 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:08,288 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 06:43:08,296 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:08,301 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:08,305 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:08,311 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "GET /static/dashboard.js HTTP/1.1" 200 -
+2026-02-14 06:43:08,500 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:43:08,582 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:43:08,587 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:43:08,598 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:43:08,653 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-14 06:43:19,848 - data_manager - INFO - Habit deleted: sdd
+2026-02-14 06:43:19,849 - __main__ - INFO - User deleted habit: sdd
+2026-02-14 06:43:19,850 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "[32mPOST /delete HTTP/1.1[0m" 302 -
+2026-02-14 06:43:19,922 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:19,939 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:43:19,939 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:19,940 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:19,952 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:19,952 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:43:19,965 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:43:19,975 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:43:19,984 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:43:19,996 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:19] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:43:36,700 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:36] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 06:43:36,764 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:36] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:37,415 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:37,427 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:43:37,442 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:37,446 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:37,448 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:37,453 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:43:37,468 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:43:37,494 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:43:37,514 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:43:37,545 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:37] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:43:39,480 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:39] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 06:43:39,527 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:39] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:40,218 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:40,237 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:43:40,238 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:40,239 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:40,247 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:40,248 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:43:40,258 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:43:40,268 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:43:40,297 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:43:40,303 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:43:40,941 - __main__ - INFO - Habit skipped: Drink Water
+2026-02-14 06:43:40,943 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:40] "[32mPOST /skip HTTP/1.1[0m" 302 -
+2026-02-14 06:43:41,047 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:41,536 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:41,549 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:43:41,551 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:41,552 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:41,558 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:41,559 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:43:41,567 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:43:41,614 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:43:41,621 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:43:41,631 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:41] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:43:42,225 - __main__ - INFO - Habit skipped: Drink Water
+2026-02-14 06:43:42,226 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "[32mPOST /skip HTTP/1.1[0m" 302 -
+2026-02-14 06:43:42,305 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:42,774 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "GET / HTTP/1.1" 200 -
+2026-02-14 06:43:42,786 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:43:42,790 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:42,794 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:42,803 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:43:42,809 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:43:42,819 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:43:42,857 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:43:42,895 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:43:42,962 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:43:42] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:45:47,508 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "GET / HTTP/1.1" 200 -
+2026-02-14 06:45:47,522 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:45:47,535 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:45:47,536 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:45:47,544 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:45:47,544 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:45:47,622 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:45:47,764 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:45:47,766 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:45:47,784 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:45:47] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:49:04,618 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:49:05,168 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:49:05,169 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:49:05,170 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:49:05,858 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:49:06,380 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:49:06,384 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:49:36,017 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:49:36,578 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:49:36,578 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:49:36,580 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:49:37,300 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:49:37,844 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:49:37,847 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:49:57,280 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "GET /?id=238a1b88-1d0b-4d4c-b5ef-4d80bcf34551&vscodeBrowserReqId=1771031997167 HTTP/1.1" 200 -
+2026-02-14 06:49:57,308 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:49:57,309 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:49:57,316 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:49:57,316 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:49:57,317 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 06:49:57,332 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:49:57,345 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:49:57,350 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:49:57,356 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:49:57] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:50:06,183 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "GET / HTTP/1.1" 200 -
+2026-02-14 06:50:06,203 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 06:50:06,216 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:50:06,216 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:50:06,219 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:50:06,221 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:50:06,299 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:50:06,350 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:50:06,356 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:50:06,403 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:06] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:50:26,705 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:26] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 06:50:26,777 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:26] "GET / HTTP/1.1" 200 -
+2026-02-14 06:50:27,447 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "GET / HTTP/1.1" 200 -
+2026-02-14 06:50:27,459 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 06:50:27,462 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:50:27,463 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:50:27,468 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 06:50:27,470 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 06:50:27,479 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 06:50:27,487 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 06:50:27,492 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 06:50:27,498 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 06:50:27] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 06:53:00,596 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:53:01,148 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:53:01,149 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:53:01,150 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:53:01,879 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:53:02,409 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:53:02,413 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 06:53:39,577 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:53:40,130 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.153.165.240:5000
+2026-02-14 06:53:40,131 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 06:53:40,132 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 06:53:40,780 - __main__ - INFO - TrackIt application starting...
+2026-02-14 06:53:41,310 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 06:53:41,314 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 07:10:06,456 - __main__ - INFO - New user account created: mubashira (ID: 9ca8cb5e-8a07-4f69-9027-8d3094939193)
+2026-02-14 07:10:06,457 - __main__ - INFO - New user account created: mubashira (ID: 9ca8cb5e-8a07-4f69-9027-8d3094939193)
+2026-02-14 07:10:06,459 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "[32mPOST /set_name HTTP/1.1[0m" 302 -
+2026-02-14 07:10:06,580 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:06,610 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 07:10:06,610 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:06,612 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:06,630 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:06,656 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:10:06,663 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:10:06,672 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:10:06,684 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:10:06,691 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:06] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:10:33,799 - __main__ - INFO - User mubashira earned 10 points (total: 10)
+2026-02-14 07:10:33,799 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:33] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 07:10:33,863 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:33] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:34,527 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:34,540 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 07:10:34,541 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:34,542 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:34,550 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:34,550 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:10:34,565 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:10:34,573 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:10:34,589 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:10:34,591 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:34] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:10:43,282 - __main__ - INFO - User mubashira earned 10 points (total: 20)
+2026-02-14 07:10:43,284 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:43] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 07:10:43,341 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:43] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:43,998 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:43] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:44,011 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 07:10:44,013 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:44,013 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:44,021 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:44,022 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:10:44,029 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:10:44,036 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:10:44,041 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:10:44,044 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:44] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:10:45,760 - __main__ - INFO - User mubashira earned 10 points (total: 30)
+2026-02-14 07:10:45,761 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:45] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 07:10:45,829 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:45] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:46,488 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:46,498 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 07:10:46,501 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:46,501 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:46,508 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:46,509 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:10:46,519 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:10:46,535 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:10:46,541 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:10:46,546 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:46] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:10:52,045 - __main__ - INFO - User mubashira earned 10 points (total: 40)
+2026-02-14 07:10:52,046 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 07:10:52,138 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:52,802 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:52,813 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 07:10:52,817 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:52,818 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:52,830 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:52,833 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:10:52,842 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:10:52,863 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:10:52,886 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:10:52,887 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:52] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:10:53,659 - data_manager - INFO - User mubashira earned reward: Bronze Badge 🥉 at 50 points
+2026-02-14 07:10:53,660 - __main__ - INFO - User mubashira unlocked rewards: Bronze Badge 🥉
+2026-02-14 07:10:53,661 - __main__ - INFO - User mubashira earned 10 points (total: 50)
+2026-02-14 07:10:53,661 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:53] "[32mPOST /done HTTP/1.1[0m" 302 -
+2026-02-14 07:10:53,748 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:53] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:54,414 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "GET / HTTP/1.1" 200 -
+2026-02-14 07:10:54,428 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 07:10:54,430 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:54,431 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:54,441 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:10:54,442 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:10:54,456 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:10:54,466 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:10:54,474 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:10:54,477 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:10:54] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:29:15,262 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "GET / HTTP/1.1" 200 -
+2026-02-14 07:29:15,275 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 07:29:15,277 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:29:15,278 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:29:15,283 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:29:15,294 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:29:15,303 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:29:15,314 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:29:15,319 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:29:15,324 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:29:15] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:36:24,367 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:36:24] "POST /api/chat HTTP/1.1" 200 -
+2026-02-14 07:42:42,717 - __main__ - INFO - TrackIt application starting...
+2026-02-14 07:42:44,120 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.16.183:5000
+2026-02-14 07:42:44,120 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 07:42:44,123 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 07:42:44,890 - __main__ - INFO - TrackIt application starting...
+2026-02-14 07:42:45,618 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 07:42:45,622 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 07:42:59,894 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "GET /?id=238a1b88-1d0b-4d4c-b5ef-4d80bcf34551&vscodeBrowserReqId=1771035179852 HTTP/1.1" 200 -
+2026-02-14 07:42:59,912 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:42:59,915 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:42:59,916 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:42:59,927 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:42:59,930 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 07:42:59,943 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:42:59,962 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:42:59,967 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:42:59,973 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:42:59] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:43:36,313 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "GET / HTTP/1.1" 200 -
+2026-02-14 07:43:36,326 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 07:43:36,329 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:43:36,329 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:43:36,344 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:43:36,345 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:43:36,356 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:43:36,372 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:43:36,378 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:43:36,392 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:43:36] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:45:11,059 - __main__ - INFO - TrackIt application starting...
+2026-02-14 07:45:11,684 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.16.183:5000
+2026-02-14 07:45:11,684 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 07:45:11,686 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 07:45:12,438 - __main__ - INFO - TrackIt application starting...
+2026-02-14 07:45:13,037 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 07:45:13,041 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 07:45:45,473 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "GET /?id=238a1b88-1d0b-4d4c-b5ef-4d80bcf34551&vscodeBrowserReqId=1771035345426 HTTP/1.1" 200 -
+2026-02-14 07:45:45,489 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:45:45,499 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:45:45,508 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 07:45:45,508 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:45:45,527 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:45:45,550 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:45:45,564 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:45:45,570 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:45:45,592 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:45] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:45:47,966 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:47] "GET / HTTP/1.1" 200 -
+2026-02-14 07:45:47,980 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:47] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-14 07:45:47,988 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:47] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:45:47,993 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:47] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:45:48,001 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:48] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-14 07:45:48,002 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:48] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:45:48,020 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:48] "[33mPOST /complete-habit HTTP/1.1[0m" 404 -
+2026-02-14 07:45:48,246 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:48] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:45:48,287 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:48] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -
+2026-02-14 07:45:48,310 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:45:48] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:51:19,234 - __main__ - INFO - TrackIt application starting...
+2026-02-14 07:51:19,867 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.16.183:5000
+2026-02-14 07:51:19,867 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 07:51:19,869 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 07:51:20,626 - __main__ - INFO - TrackIt application starting...
+2026-02-14 07:51:21,268 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 07:51:21,271 - werkzeug - INFO -  * Debugger PIN: 102-430-637
+2026-02-14 07:53:52,609 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "GET / HTTP/1.1" 200 -
+2026-02-14 07:53:52,623 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-14 07:53:52,626 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "[36mGET /static/images/default.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:53:52,626 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "[36mGET /static/images/water.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:53:52,643 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "[36mGET /static/images/reading.svg HTTP/1.1[0m" 304 -
+2026-02-14 07:53:52,685 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "GET /static/dashboard.js HTTP/1.1" 200 -
+2026-02-14 07:53:52,701 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "GET /weekly HTTP/1.1" 200 -
+2026-02-14 07:53:52,711 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "GET /leaderboard HTTP/1.1" 200 -
+2026-02-14 07:53:52,723 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 07:53:52] "GET /calendar_data?month=2&year=2026&user=me HTTP/1.1" 200 -

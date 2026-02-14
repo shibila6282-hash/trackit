@@ -1,0 +1,20 @@
+{
+  "Shibi": {
+    "points": 100,
+    "rewards": [
+      "Bronze Badge \ud83e\udd49",
+      "Silver Badge \ud83e\udd48"
+    ]
+  },
+  "mubashira": {
+    "points": 50,
+    "rewards": [
+      {
+        "name": "Bronze Badge \ud83e\udd49",
+        "earned_at": "2026-02-14T07:10:53.659144",
+        "points_at_earn": 50
+      }
+    ],
+    "last_point_earned": "2026-02-14T07:10:53.646787"
+  }
+}
